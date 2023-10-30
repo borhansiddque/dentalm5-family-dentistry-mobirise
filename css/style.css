@@ -1,0 +1,737 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap');
+
+::selection {
+    background-color: #5dd2ac;
+    color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gloock', serif;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.btn {
+    font-size: 1rem;
+    font-weight: 800;
+    color: #292929;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    border: 1px solid #292929;
+    cursor: pointer;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    transition: all .3s;
+}
+
+.btn1 {
+    background-color: #f2c4b3;
+}
+
+.btn2 {
+    background-color: #a1e5cf;
+}
+
+.btn1:hover {
+    background-color: #e58b69;
+}
+
+.btn2:hover {
+    background-color: #5dd2ac;
+}
+
+.section-title {
+    font-size: 2.25rem;
+    color: #212529;
+    font-family: 'Gloock', serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.section-subtitle {
+    color: #212529;
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* Navbar Design Start */
+nav {
+    background-color: #f1f4e9;
+    padding: 30px 30px 5px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a {
+    color: #292929;
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Gloock', serif;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.menu li a {
+    color: #292929;
+    transition: all .3s;
+}
+
+.menu li a:hover {
+    font-weight: 700;
+}
+
+.side-menu {
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer; 
+}
+
+.phone-menu {
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    display: none;
+}
+/* Navbar Design End */
+
+/* Hero Section Design Start */
+header {
+    background-color: #f1f4e9;
+    padding: 0px 30px;
+}
+
+.hero-section {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 0px;
+}
+
+.hero-info {
+    width: 70%;
+}
+
+.hero-subtitle {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #212529;
+}
+
+.hero-title {
+    font-family: 'Gloock', serif;
+    font-size: 3rem;
+    font-weight: 400;
+    color: #212529;
+    margin: 30px 0px 40px;
+}
+
+.hero-img {
+    width: 30%;
+    filter: drop-shadow(5px 5px 10px #aaa);
+}
+
+.hero-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+/* Hero Section Design End */
+
+main {
+    background-color: #f1f4e9;
+}
+
+/* Our Qualified Dentists Section Start */
+.qualified-dentists {
+    padding: 0px 30px;
+}
+
+.qualified-dentists-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 50px 0px;
+    border-bottom: 1px solid #292929;
+}
+
+.dentist {
+    cursor: pointer;
+}
+
+.dentist img {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.dentist-info {
+    margin-top: 20px;
+}
+/* Our Qualified Dentists Section End */
+
+/* About Team Section Design Start */
+.about-team-section {
+    display: flex;
+    gap: 20px;
+    padding: 100px 50px;
+}
+
+.about-img {
+    width: 50%;
+}
+
+.about-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.about-info {
+    width: 50%;
+    background-color: #fff;
+    padding: 80px 30px;
+    border-radius: 10px;
+}
+
+.about-info p {
+    font-size: 1.1rem;
+    line-height: 27px;
+    color: #212529;
+}
+
+.more-about-team {
+    margin-top: 30px;
+}
+
+.more-about-team a {
+    color: #212529;
+    border-bottom: 1px solid #212529;
+    transition: background .3s;
+}
+
+.more-about-team a:hover {
+    background: #b3efdc;
+}
+
+/* About Team Section Design End */
+
+.advantages-advanced-technology-works-section{
+    background-color: #f2c4b3;
+    padding: 100px 30px;
+}
+
+/* Advantages Section design Start */
+.advantages-section {
+    text-align: center;
+}
+
+.advantages-section .section-title {
+    margin-top: 25px;
+}
+
+.advantage-item-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    row-gap: 50px;
+    margin: 60px 0px;
+}
+
+.advantage-item {
+    text-align: center;
+}
+
+.advantage-item p {
+    font-size: 1.1rem;
+    line-height: 27px;
+    color: #212529;
+}
+
+.advantage-item h3 {
+    margin: 20px 0px;
+}
+
+.advantages-section .btn2 {
+    text-align: center;
+}
+/* Advantages Section design End */
+
+/* Advanced Technology Section Design Start */
+.advanced-tech {
+    padding: 120px 0px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.advanced-tech-img {
+    width: 50%;
+}
+
+.advanced-tech-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.advanced-tech-info {
+    width: 50%;
+}
+
+.advanced-tech-info .section-title {
+    text-align: left;
+}
+
+.advanced-tech-info p {
+    margin-top: 30px;
+    font-size: 1.1rem;
+    line-height: 27px;
+}
+
+.advanced-tech-info div {
+    margin-top: 40px;
+}
+
+.advanced-tech-info a {
+    color: #212529;
+    font-size: 1rem;
+    font-weight: 800;
+    text-decoration: underline;
+    text-transform: uppercase;
+    transition: color .3s;
+}
+
+.advanced-tech-info a:hover {
+    color: #000;
+}
+
+/* Advanced Technology Section Design End */
+
+/* Our Works Section Design Start */
+.our-works > .section-subtitle {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.works-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.work {
+    text-align: center;
+}
+
+.work .section-subtitle {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #212529;
+}
+
+.work .section-title {
+    font-size: 1.8rem;
+    margin: 30px 0px;
+}
+
+.work p {
+    line-height: 27px;
+    font-size: 1.1rem;
+}
+/* Our Works Section Design End */
+
+/* We are Looking Section Design Start */
+.we-looking {
+    padding: 100px 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.we-looking-info {
+    width: 50%;
+}
+
+.looking-heart-container {
+    text-align: center;
+}
+
+.looking-heart {
+    background-color: #f2c4b3;
+    padding: 10px;
+    border-radius: 50px;
+    display: inline-block;
+    cursor: pointer;
+    transition: background .3s;
+}
+
+.looking-heart:hover {
+    background-color: #a1e5cf;
+}
+
+.looking-heart i {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.we-looking-info .section-title {
+    text-align: left;
+    margin: 30px 0px;
+}
+
+.we-looking-tag-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+
+.we-looking-tag {
+    background-color: #b3efdc;
+    cursor: pointer;
+    font-size: 1.1rem;
+    color: #212529;
+    padding: 2px;
+}
+
+.we-looking-img {
+    width: 50%;
+    filter: drop-shadow(5px 5px 10px #888);
+}
+
+.we-looking-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+/* We are Looking Section Design End */
+
+/* Our Location Section Design Start */
+.location-section {
+    padding: 100px 30px;
+}
+
+.location-section > .section-title {
+    text-align: left;
+}
+
+.location-details {
+    font-size: 1.1rem;
+    color: #212529;
+    margin-top: 20px;
+}
+
+.location-hr {
+    background-color: #212529;
+    margin: 50px 0px;
+}
+
+.location-description .section-title {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.location-description-two {
+    margin-top: 50px;
+}
+
+.location-description p {
+    font-size: 1.1rem;
+    line-height: 27px;
+    margin-top: 20px;
+}
+
+.location-description-two p {
+    margin-top: 0px;
+}
+/* Our Location Section Design End */
+
+/* Service and Time Section Design Start */
+
+.service-time {
+    padding: 0px 0px 80px;
+}
+
+.service-time-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.service-time-img-arrow {
+    background-color: #292929;
+    color: #5dd2ac;
+    padding: 5px 7px;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#service-time-img {
+    width: 70%;
+    border-radius: 10px;
+}
+
+.service-time-info-container {
+    width: 70%;
+    margin: 40px auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-time-info h3 {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    color: #212529;
+    margin-bottom: 20px;
+}
+
+.service-time-info li {
+    list-style: disc;
+    margin-top: 10px;
+}
+
+.service-time-info p {
+    margin-top: 10px;
+}
+
+.service-time-btn {
+    text-align: center;
+}
+
+/* Service and Time Section Design End */
+
+/* FAMILY DENTISTRY Section Design Start */
+
+.family-dentistry-container {
+    padding: 80px 30px;
+}
+
+.family-dentistry {
+    width: 50%;
+    margin: 0px auto;
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('/images/family-dentistry-img.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 30px;
+    text-align: center;
+}
+
+.family-dentistry h3 {
+    color: #212529;
+    font-family: 'Gloock', serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 45px;
+}
+
+.family-dentistry .section-title {
+    font-size: 1.8rem;
+    margin-top: 30px;
+}
+
+/* FAMILY DENTISTRY Section Design End */
+
+/* Review and Map Section Design Start */
+
+.review-map-section {
+    padding: 100px 30px;
+}
+
+.review-map-container {
+    display: flex;
+    gap: 50px;
+}
+
+.review-container {
+    width: 50%;
+    display: grid;
+    gap: 50px;
+}
+
+.reviewer-rate-name-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.reviewer-rate-name-container h3 {
+    font-family: 'Gloock', serif;
+    font-weight: 400;
+    font-size: 1.9rem;
+    color: #212529;
+}
+
+.reviewer-rate i {
+    color: #fcd53f;
+    font-size: 1.5rem;
+}
+
+.review p {
+    font-size: 1.1rem;
+    color: #292929;
+    line-height: 27px;
+    margin-top: 30px;
+}
+
+.map {
+    width: 50%;
+    height: 100%;
+}
+
+.map iframe {
+    width: 100%;
+    height: 500px;
+}
+
+/* Review and Map Section Design End */
+
+/* Dentist Section Design Start */
+.our-main-dentist {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 80px 30px;
+}
+
+.our-main-dentist img {
+    width: 50%;
+    height: 700px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+/* Dentist Section Design End */
+
+/* Contact Section Design Start */
+.contact-section {
+    background-color: #f2c4b3;
+    padding: 70px 30px;
+}
+
+.contact-section .section-title {
+    color: #212529;
+    font-family: 'Gloock', serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 45px;
+}
+/* Contact Section Design End */
+
+.contact-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.contact-form-input label {
+    display: block;
+}
+
+.contact-form-input input,
+.contact-form-input textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000;
+    background-color: transparent;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.contact-form-textarea {
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+.contact-section .btn {
+    padding: 15px 50px;
+}
+
+.contact-section .btn1 {
+    margin-top: 40px;
+}
+
+/* Footer Design Start */
+footer {
+    background-color: #292929;
+    color: #f1f4e9;
+    padding: 100px 30px 50px;
+}
+
+footer a {
+    color: #f1f4e9;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Gloock', serif;
+}
+
+.footer-logo h2 {
+    font-size: 2.25rem;
+    font-weight: 400;
+}
+
+.footer-logo p {
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.footer-social-link {
+    display: grid;
+    gap: 20px;
+}
+
+.footer-social-link a {
+    font-size: 1.8rem;
+    font-weight: 400;
+    transition: all .3s;
+}
+
+.footer-social-link a:hover {
+    color: #292929;
+    background-color: #5dd2ac;
+    text-decoration: underline;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 60px;
+}
+/* Footer Design End */
